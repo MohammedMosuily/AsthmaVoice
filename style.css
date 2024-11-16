@@ -1,0 +1,76 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #008080; /* Teal Green */
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Header */
+header {
+    background: #008080; /* Teal Green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.uos-logo {
+    height: 50px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about, #app, #contact {
+    margin-bottom: 40px;
+}
+
+#app .screenshots img {
+    max-width: 30%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contact a {
+    color: #008080;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    color: #333;
+}
+
+footer img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+footer strong {
+    color: #008080; /* Teal Green */
+}
