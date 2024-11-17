@@ -5,15 +5,21 @@ body {
     padding: 0;
     line-height: 1.6;
     color: #333;
+    background-color: #f9f9f9;
 }
 
 h1, h2 {
     text-align: center;
-    color: #008080; /* Teal Green */
 }
 
-p {
+h1 {
+    color: white; /* Ensure the title is white for visibility */
+    font-size: 2.5em;
     margin: 10px 0;
+}
+
+h2 {
+    color: #008080; /* Teal Green for section titles */
 }
 
 /* Header */
@@ -22,6 +28,7 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .header-logo {
@@ -32,45 +39,115 @@ header {
 
 .uos-logo {
     height: 50px;
+    margin-bottom: 10px;
+}
+
+/* Navigation Bar */
+nav {
+    background: #f4f4f4;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #008080;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: white;
+    background: #008080;
+    border-radius: 5px;
 }
 
 /* Main Content */
 main {
     padding: 20px;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-}
-
-#about, #app, #contact {
-    margin-bottom: 40px;
-}
-
-#app .screenshots img {
-    max-width: 30%;
-    margin: 10px;
-    border: 1px solid #ddd;
+    background: white;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-#contact a {
-    color: #008080;
-    text-decoration: underline;
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Screenshots */
+.screenshots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.screenshot {
+    max-width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
 footer {
-    background: #f4f4f4;
+    background: #008080; /* Match header background */
+    color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+}
+
+.footer-logo img {
+    height: 40px;
+}
+
+/* App Logo Section */
+/* App Logo Section */
+/* App Logo Section */
+#app-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between the logo and text */
+    max-width: 800px;
+    text-align: left;
+}
+
+.app-logo {
+    max-width: 150px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.store-message {
+    font-size: 1.2em;
     color: #333;
-}
-
-footer img {
-    height: 50px;
-    margin-bottom: 10px;
-}
-
-footer strong {
-    color: #008080; /* Teal Green */
+    line-height: 1.5;
 }

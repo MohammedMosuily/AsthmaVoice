@@ -7,44 +7,141 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <!-- Header Section -->
+    <header class="dark-header">
         <div class="header-logo">
-            <img src="assets/uos_logo.svg" alt="University of Southampton Logo" class="uos-logo">
+            <img src="assets/uos_logo_white.png" alt="University of Southampton Logo" class="uos-logo">
         </div>
         <h1>AsthmaVoice Study</h1>
-        <p>Conducted at the <strong>University of Southampton</strong>, exploring how speech can predict asthma exacerbations.</p>
+        <p>Empowering asthma care through advanced speech-based monitoring.</p>
     </header>
+    
+    <!-- App Logo Section -->
+    <section id="app-logo" class="center-content">
+        <div class="logo-container">
+            <img src="assets/app_logo.jpeg" alt="AsthmaVoice App Logo" class="app-logo">
+            <div class="store-message">
+                <p>
+                    The <strong>AsthmaVoice app</strong> will soon be available on the 
+                    <strong>App Store</strong> and <strong>Google Play Store</strong> for data collection.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#screenshots">Screenshots</a></li>
+            <li><a href="#gdpr">Privacy Statement</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
     <main>
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to the AsthmaVoice Study</h2>
+            <p>
+                The <strong>AsthmaVoice Study</strong>, conducted at the <strong>University of Southampton</strong>, explores how speech data 
+                can be used to predict asthma exacerbations. This research integrates advanced speech analysis with traditional monitoring to 
+                transform asthma care and improve early intervention strategies.
+            </p>
+            <p>
+                This study is being conducted by <strong><a href="https://sites.google.com/view/mohammed-mosuily/bio" target="_blank">Mohammed Mosuily</a></strong>, 
+                a PhD student at the University of Southampton, under the supervision of 
+                <strong><a href="https://sites.google.com/view/jagmohan-chauhan" target="_blank">Dr. Jagmohan Chauhan</a></strong>.
+            </p>
+        </section>
+
+        <!-- Expanded About Section -->
         <section id="about">
             <h2>About the Study</h2>
             <p>
-                AsthmaVoice is a research project led by PhD student <strong>Mohammed Mosuily</strong>, 
-                under the supervision of <strong>Dr. Jagmohan Chauhan</strong>. The study investigates the potential of speech 
-                to predict asthma symptoms and improve early intervention.
+                AsthmaVoice is an innovative research project designed to explore whether speech characteristics, such as tone, rhythm, and pauses, can predict asthma exacerbations. 
+                By combining speech analysis with traditional asthma monitoring methods, this study aims to develop tools for earlier detection and better management of asthma.
+            </p>
+            <h3>Objectives of the Study</h3>
+            <ul>
+                <li>Analyze the relationship between speech patterns and asthma symptoms.</li>
+                <li>Improve asthma management by providing early warnings for exacerbations.</li>
+                <li>Reduce healthcare burdens by enabling personalized, non-invasive monitoring.</li>
+            </ul>
+            <h3>How Will the Study Work?</h3>
+            <p>
+                Participants will use the AsthmaVoice app to record structured and spontaneous speech tasks. These recordings, combined with questionnaires and environmental data, 
+                will be analyzed to identify changes in speech patterns that correlate with asthma severity.
             </p>
             <p>
-                For more details about the research, kindly read the 
-                <a href="https://sotonac-my.sharepoint.com/:b:/g/personal/mtm1g19_soton_ac_uk/EXlMcI80c4VJqrtxsbx_wOYBTh2u9oXU1BhAe6Di-a8JOg?e=kPHShp" target="_blank">participant information sheet</a>.
+                Data collection will take place over a 3–6 month period, ensuring enough variability in asthma conditions and speech characteristics to create robust predictive models.
+            </p>
+            <h3>Participant Involvement</h3>
+            <p>
+                Participants are integral to the success of this study. Each participant will:
+            </p>
+            <ul>
+                <li>Record speech tasks biweekly, including reading a passage and describing a picture.</li>
+                <li>Fill out health and environmental questionnaires twice a week.</li>
+                <li>Share data on air quality and weather conditions in their location.</li>
+            </ul>
+            <p>
+                This study has been approved by the University of Southampton Ethics Committee (ERGO 97106). 
+                For more information, please review the 
+                <a href="https://sotonac-my.sharepoint.com/:b:/g/personal/mtm1g19_soton_ac_uk/EXlMcI80c4VJqrtxsbx_wOYBTh2u9oXU1BhAe6Di-a8JOg?e=kPHShp" target="_blank">
+                Participant Information Sheet (PDF)</a>.
             </p>
         </section>
 
-        <section id="app">
+        <!-- Screenshots Section -->
+        <section id="screenshots">
             <h2>App Screenshots</h2>
             <div class="screenshots">
-                <img src="assets/IMG_9585.PNG" alt="App Screenshot 1">
-                <img src="assets/IMG_9586.PNG" alt="App Screenshot 2">
-                <img src="assets/IMG_9587.PNG" alt="App Screenshot 3">
+                <img src="assets/IMG_9585.PNG" alt="App Screenshot 1" class="screenshot">
+                <img src="assets/IMG_9586.PNG" alt="App Screenshot 2" class="screenshot">
+                <img src="assets/IMG_9587.PNG" alt="App Screenshot 3" class="screenshot">
             </div>
         </section>
 
+        <!-- Privacy Statement Section -->
+        <section id="gdpr">
+            <h2>Privacy Statement</h2>
+            <p><strong>GDPR Compliance:</strong> The AsthmaVoice study is fully compliant with the General Data Protection Regulation (GDPR). 
+                Your personal data will be processed securely and only for the purposes of this research.</p>
+            <p>
+                Participation in this study is entirely anonymous. No personally identifiable data will be shared in any publications or reports resulting from this research. 
+                Speech recordings are processed to extract features, and the actual recordings are not distributed.
+            </p>
+            <p>
+                The University of Southampton will store anonymized data on secure servers for up to 10 years after the study concludes. After this period, any identifiable data will be permanently removed.
+            </p>
+            <p>
+                If you choose to withdraw from the study, all identifiable data related to you will be deleted. Anonymized data already analyzed will be retained as it cannot be traced back to you.
+            </p>
+            <p>
+                For more information about your data rights, refer to our 
+                <a href="https://www.southampton.ac.uk/~assets/doc/legal-services/Research%20and%20Integrity%20Privacy%20Notice/Privacy%20Notice for Research Participants.pdf" target="_blank">
+                Privacy Notice for Research Participants</a>.
+            </p>
+        </section>
+
+        <!-- Contact Section -->
         <section id="contact">
             <h2>Contact Us</h2>
-            <p>If you have any questions about the study, feel free to reach out:</p>
-            <p>Email: <a href="mailto:mtm1g19@soton.ac.uk">mtm1g19@soton.ac.uk</a></p>
+            <p>If you have any questions about the study, please contact:</p>
+            <ul>
+                <li><strong>Mohammed Mosuily</strong>: <a href="mailto:mtm1g19@soton.ac.uk">mtm1g19@soton.ac.uk</a></li>
+            </ul>
         </section>
-    </main>
-    <footer>
-        <img src="assets/app_logo.jpeg" alt="App Logo" class="app-logo">
+    </main> 
+
+    <!-- Footer -->
+    <footer class="dark-footer">
+        <div class="footer-logo">
+            <img src="assets/uos_logo_white.png" alt="University of Southampton Logo" class="uos-logo">
+        </div>
         <p>&copy; 2024 AsthmaVoice Study | Conducted at the <strong>University of Southampton</strong></p>
     </footer>
 </body>
