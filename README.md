@@ -18,9 +18,8 @@ The AsthmaVoice app will soon be available on the **App Store** and **Google Pla
 - **Supervisor**: [Dr. Jagmohan Chauhan](https://sites.google.com/view/jagmohan-chauhan)
 - **University**: University of Southampton
 - **ERGO Number**: 97106
+  
+## License
+This project and website adhere to the principles of the **MIT License**, ensuring that the code, design, and materials can be freely used, modified, and shared. For full details, see the [LICENSE](LICENSE) file.
 
-## Setup
-To set up the project locally:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/MohammedMosuily/AsthmaVoice.git
+By following the MIT copyright, we aim to promote transparency, collaboration, and innovation in open-source projects.
