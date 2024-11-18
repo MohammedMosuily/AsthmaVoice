@@ -14,7 +14,7 @@ The goal of the AsthmaVoice study is to explore how speech characteristics, such
 The AsthmaVoice app will soon be available on the **App Store** and **Google Play Store** for data collection.
 
 ## Project Details
-- **Researcher**: [Mohammed Mosuily](https://sites.google.com/view/mohammed-mosuily/bio)
+- **Postgraduate Researcher**: [Mohammed Mosuily](https://sites.google.com/view/mohammed-mosuily/bio)
 - **Supervisor**: [Dr. Jagmohan Chauhan](https://sites.google.com/view/jagmohan-chauhan)
 - **University**: University of Southampton
 - **ERGO Number**: 97106
